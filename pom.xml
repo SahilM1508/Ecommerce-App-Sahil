@@ -63,14 +63,15 @@
 
   <distributionManagement>
     <repository>
-      <id>maven-releases</id>
-      <url>http://13.233.193.245:8081/repository/maven-releases/</url>
+        <id>maven-releases</id>
+        <url>http://65.2.63.130:8081/repository/maven-releases/</url>
     </repository>
+
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <url>http://13.233.193.245:8081/repository/maven-snapshots/</url>
+        <id>maven-snapshots</id>
+        <url>http://65.2.63.130:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-  </distributionManagement>
+</distributionManagement>
 
   <build>
     <finalName>EcommerceApp</finalName>
